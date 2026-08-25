@@ -1,0 +1,20 @@
+# Versions recorded in the study environment where available
+tensorflow==2.20.0
+torch==2.11.0
+fair-esm==2.0.0
+transformers==5.14.0
+captum==0.9.0
+numpy==2.0.2
+pandas==3.0.3
+scikit-learn==1.9.0
+sentencepiece
+accelerate
+biopython
+openpyxl
+scipy
+umap-learn
+matplotlib
+seaborn
+logomaker
+tqdm
+joblib

@@ -1,0 +1,6 @@
+{
+  "selection_dataset": "validation",
+  "selection_metric": "Matthews correlation coefficient",
+  "selected_threshold": 0.83,
+  "default_threshold_for_comparison": 0.5
+}

@@ -1,0 +1,53 @@
+{
+  "release_name": "pLM4CPP-XAI trained classifiers",
+  "models": {
+    "ESM2_320": {
+      "classifier_file": "final_attention_classifier.keras",
+      "classifier_sha256": "a41e2b54e5ee08ab1356a14e8af119a5afd7253b857878fec6b6ef2141ccb4c4",
+      "threshold_file": "selected_threshold.json",
+      "threshold_contents": {
+        "selection_dataset": "validation",
+        "selection_metric": "Matthews correlation coefficient",
+        "selected_threshold": 0.83,
+        "default_threshold_for_comparison": 0.5
+      },
+      "threshold_sha256": "6bbee060854a96bbdb25128c09e8757f07417f4b8a2fbe9296e2b152f7aab363"
+    },
+    "ESM2_640": {
+      "classifier_file": "final_attention_classifier.keras",
+      "classifier_sha256": "6489715a869d43fb2bbff3ffb63c00d6ffe4d9dadeda09d45de9d372773e5737",
+      "threshold_file": "selected_threshold.json",
+      "threshold_contents": {
+        "selection_dataset": "validation",
+        "selection_metric": "Matthews correlation coefficient",
+        "selected_threshold": 0.9249999999999999,
+        "default_threshold_for_comparison": 0.5
+      },
+      "threshold_sha256": "afedc10372ce18d91c124c8907219b4ebbec3a0e83c44bb832966f9c4e721337"
+    },
+    "ESM2_1280": {
+      "classifier_file": "final_attention_classifier.keras",
+      "classifier_sha256": "d9f39b6a6ca62d1f6986938f10c16c8162a8cd4766947bb27434f2e29cf0b2fb",
+      "threshold_file": "selected_threshold.json",
+      "threshold_contents": {
+        "selection_dataset": "validation",
+        "selection_metric": "Matthews correlation coefficient",
+        "selected_threshold": 0.615,
+        "default_threshold_for_comparison": 0.5
+      },
+      "threshold_sha256": "184384cea676f0abf5bb351a493a4ab2e805a4c0325bfafbc345a39f9dc67922"
+    },
+    "ProtT5": {
+      "classifier_file": "final_attention_classifier.keras",
+      "classifier_sha256": "134c0d04b015606756b6249d23dd60eedaeae2659a5fa58868462c8495edb673",
+      "threshold_file": "selected_threshold.json",
+      "threshold_contents": {
+        "selection_dataset": "validation",
+        "selection_metric": "Matthews correlation coefficient",
+        "selected_threshold": 0.7649999999999999,
+        "default_threshold_for_comparison": 0.5
+      },
+      "threshold_sha256": "fa46f41cd5e976dc50f4da39fda4dc805d523ba9415dd5dca10e0d4b992f9d33"
+    }
+  }
+}

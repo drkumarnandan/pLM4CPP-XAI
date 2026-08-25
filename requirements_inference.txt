@@ -1,0 +1,10 @@
+fair-esm==2.0.0
+transformers
+sentencepiece
+accelerate
+tensorflow==2.20.0
+torch
+numpy
+pandas
+scipy
+matplotlib
