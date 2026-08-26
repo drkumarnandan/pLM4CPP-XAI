@@ -123,4 +123,5 @@ The source datasets are not automatically redistributed. See `data/README.md`.
 ## Citation
 
 Please cite the associated pLM4CPP-XAI manuscript when using this framework.
-`CITATION.cff`
+
+Kumar, N., Du, Z., Liu, C., Daley, S., & Li, Y. (2026). pLM4CPP-XAI: Explainable protein language models for reproducible residue-level interpretation of cell-penetrating peptides. 2026 (Manuscript submitted).
