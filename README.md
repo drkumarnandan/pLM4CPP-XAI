@@ -92,16 +92,6 @@ Dense(32, GELU) → Dropout(0.20)
 Sigmoid CPP probability
 ```
 
-## Consensus XAI
-
-Residue importance is evaluated using Attention, Gradient × Input, and Integrated
-Gradients. The two gradient-based attribution ranks are averaged first, and that
-gradient-family score is then combined with attention. Model-level consensus ranks
-are averaged across the four PLMs to obtain the global consensus.
-
-The main workflow defines consensus hotspots as the upper 20% of within-sequence
-global consensus ranks.
-
 ## Repository structure
 
 ```text
