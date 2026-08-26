@@ -1,6 +1,6 @@
 # pLM4CPP-XAI
 
-**An Explainable Protein Language Model Framework for Cell-Penetrating Peptide Prediction and Interpretation**
+**pLM4CPP-XAI: An Explainable Protein Language Model Framework for Cell-Penetrating Peptide Prediction and Interpretation**
 
 pLM4CPP-XAI predicts cell-penetrating peptides (CPPs) with four pretrained protein
 language models and provides residue-level consensus explanations.
@@ -123,16 +123,4 @@ The source datasets are not automatically redistributed. See `data/README.md`.
 ## Citation
 
 Please cite the associated pLM4CPP-XAI manuscript when using this framework.
-`CITATION.cff` is included and can be updated with the DOI after publication.
-
-## Interpretation
-
-pLM4CPP-XAI outputs are computational predictions and model-derived explanations.
-A consensus hotspot is a residue assigned relatively high predictive importance
-by the models; it is not by itself experimental proof of a causal role in cellular
-uptake.
-
-## License
-
-A software license has not been selected automatically. The authors/institution
-should add the chosen license before encouraging unrestricted reuse.
+`CITATION.cff`
