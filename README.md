@@ -58,8 +58,6 @@ ProtT5_residue_XAI.csv
 <sequence_id>_consensus_XAI.png
 ```
 
-See [`docs/OUTPUT_GUIDE.md`](docs/OUTPUT_GUIDE.md).
-
 ## Trained classifiers included
 
 The exact classifier heads used in the study are bundled in [`models/`](models/).
