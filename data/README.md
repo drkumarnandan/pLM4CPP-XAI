@@ -1,7 +1,5 @@
 # Data
 
-Raw datasets are **not bundled in this repository**.
-
 The Colab pipeline expects the following four source files:
 
 1. `pLM4CPPs_dataset_CPP.xlsx`
